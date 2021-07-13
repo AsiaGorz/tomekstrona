@@ -1,0 +1,16 @@
+footer {
+  .author {
+    span {
+      a {
+        text-decoration: none;
+        color: white;
+        @include trs();
+
+        &:hover {
+          color: black;
+          @include trs();
+        }
+      }
+    }
+  }
+}
