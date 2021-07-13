@@ -1,0 +1,222 @@
+footer {
+    margin-top: 50px;
+    height: 100vh;
+    background-image: url(../img/footer_iphone.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+
+
+.footer_logo img {
+    max-width: 50%;
+    height: auto;
+    min-width: 140px;
+    position: absolute;
+    top: 50px;
+    left: 20px;
+}
+
+.footer_text {
+    position: absolute;
+    top: 20%;
+    margin: 10px 20px 10px 20px;
+    
+}
+
+.footer_text p {
+    color: #fff;
+    font-size: 1rem;
+    
+}
+.footer_text li {
+    color: #fff;
+    font-size: 1rem;
+    text-decoration: none;
+    list-style: none;
+    padding-top: 5px;
+    }
+
+.footer_nav {
+    position: absolute;
+    bottom: 7%;
+    margin: 15px 20px 5px 20px;
+}
+
+.footer_nav ul {
+    list-style: none;
+}
+
+.footer_nav ul li {
+    padding: 6px;
+}
+
+.footer_nav ul li a {
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+
+.author {
+    position: absolute;
+    bottom: 3%;
+    margin: 0 20px 0 20px;
+
+}
+
+.author p {
+    color: #fff;
+    font-size: 0.8rem;
+    padding-top: 20px;
+   
+}
+
+@media (orientation: landscape) {
+
+    .footer_logo img {
+        max-width: 30%;
+    }
+
+    .footer_text {
+        top: 27%
+    }
+    .footer_text p {
+        font-size: 0.8rem;
+        
+    }
+    .footer_nav {
+        position: absolute;
+        bottom: 2%;
+        
+    }
+    .footer_text li {
+        font-size: 0.8rem;
+        padding-top: 3px;
+        }
+    .footer_nav ul li {
+        padding: 3px;
+    }
+    
+    .footer_nav ul li a {
+        font-size: 0.8rem;
+        
+    }
+    .footer_nav ul li {
+        padding: 3px;
+    }
+
+    .author {
+        position: absolute;
+        bottom: 0;
+    }
+
+    .author p {
+        padding-top: 5px;
+    }
+}
+@media (min-width: 360px) {
+    .footer_nav {
+        bottom: 20%;
+    }
+    .footer_nav ul li {
+        padding: 10px;
+    }
+    .author {
+        bottom: 5%;
+    }
+}
+
+@media (min-width: 768px) {
+    footer {
+        height: 40vh;
+        background-image: url(../img/footer_iPad.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .footer_logo img {
+        max-width: 30%;
+        top: 50px;
+        left: 40px;
+    }
+
+    .footer_text {
+        top: 30%;
+        right: 50%
+    }
+
+    .footer_text p {
+        font-size: 1.2rem;
+    }
+
+    .footer_nav {
+        top: 30%;
+        right: 5%;
+    }
+
+    .footer_nav ul li {
+        padding: 10px;
+    }
+    .footer_nav ul li a {
+        font-size: 1.25rem;
+        color: #fff;
+    }
+
+    .author {
+        bottom: 5%;
+    }
+    .author p {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    footer {
+        height: 50vh;
+        background-image: url(../img/footer.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .footer_logo img {
+        max-width: 20%;
+        top: 80px;
+        left: 100px;
+    }
+    .footer_text {
+        top: 40%;
+        /* right: 40%; */
+        margin-left: 100px;
+    }
+    .footer_nav {
+        top: 40%;
+    }
+
+    
+    .author {
+        left: 8%;
+    }
+    .author p {
+        text-align: justify;
+    }
+}
+
+@media (min-width: 1200px) {
+    .footer_logo img {
+        max-width: 18%;
+    }
+    .author {
+        left: 6%;
+    }
+}
+
+@media (min-width: 1400px) {
+    .footer_logo img {
+        max-width: 12%;
+    }
+    .author {
+        left: 5%;
+    }
+}
